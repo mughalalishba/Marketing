@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Bootstrap Page</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .btn1{
+      background-color: rgb(223, 39, 223);
+
+    }
+    .btn1:hover{
+      background-color: rgb(99, 1, 99);
+    }
+     .btn2{
+      background-color: yellow;
+
+    }
+    .btn2:hover{
+      background-color : rgb(154, 204, 53);
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">MyBrand</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto ms-5">
+        <li class="nav-item"><a class="nav-link active fs-5 fw-bold  ps-5 ms-5" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold fs-5 ms-5" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold fs-5  ms-5" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold fs-5 ms-5" href="#marketing">Marketing</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold fs-5  ms-5" href="#stats">Status</a></li>
+      </ul>
+      <a href="#stats" class="btn btn-warning btn2">Get Started</a>
+    </div>
+  </div>
+</nav>
+
+<!-- SLIDER -->
+<div id="home" class="carousel slide mt-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="72c0fade-2276-4d17-b27c-798bd4cd71af.jpeg" class=" w-100 h-60" alt="Slide 1" style="height: 95vh;">
+  
+  <div class=" carousel-caption  d-flex flex-column  align-items-start justify-content-center top-50  translate-middle-y ms-0 h-300">
+<h2 class="display-4 text-white fw-bold ">MArketing Made Simple!</h2>
+<p class="text-white fw-bold fs-5">Boost Your brand with our smart and effective marketing solutions.</p>
+  </div>
+  </div>
+  
+    <div class="carousel-item">
+      <img src="0ec8d27b-a4d1-4ee8-bcee-d0aa76455845.jpeg" class="d-block w-100" alt="Slide 2"style="height: 95vh;">
+    <div class=" carousel-caption  d-flex flex-column  align-items-start justify-content-center top-50  translate-middle-y ms-0 h-300">
+<h2 class="display-4 text-white fw-bold ">Grow Your Business.</h2>
+<p class="text-white fw-bold fs-5">Discover strategies to expand your reach and connent with more customers.</p>
+  </div>
+    
+    </div>
+    <div class="carousel-item">
+      <img src="5e707b50-fc19-404f-9bea-a38c3338f264.jpeg" class="d-block w-100" alt="Slide 3"style="height: 95vh;">
+    
+    <div class=" carousel-caption  d-flex flex-column  align-items-start justify-content-center top-50  translate-middle-y ms-0 h-300">
+<h2 class="display-4 text-white fw-bold ">Creative Strategies.</h2>
+<p class="text-white fw-bold fs-5">Engage your audience with fresh content and innovative compaigns.</p>
+  </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- 1) page -->
+<section class="py-5 " id="features" style="background-color: rgb(237, 239, 240);">
+  <div class="container" >
+    <div class="row align-items-center g-4">
+      <!-- Left Image -->
+      <div class="col-md-6 text-center">
+        <img src="fff7ad08-46ff-481d-bcbf-c8ae53a6e49d.jpeg" class="img-fluid rounded shadow" alt="Feature Image">
+      </div>
+
+      <!-- Right: 3 stacked cards -->
+      <div class="col-md-6">
+        <div class="card mb-3 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title fs-5 mb-2 text-center"><i class="fas fa-bolt text-danger fa-3x mb-3"></i> <br> Fast Performance</h5>
+            <p class="card-text mb-0 text-center">Quick load and smooth experience for users.</p>
+          </div>
+        </div>
+        <div class="card mb-3 shadow-sm">
+          <div class="card-body">
+        
+            <h5 class="card-title mb-2 text-center"><i class="fas fa-paint-brush text-primary fa-3x  mb-3"></i> <br> Creative Design</h5>
+            <p class="card-text mb-0 text-center">Clean, modern UI that looks professional.</p>
+          </div>
+        </div>
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title mb-2 text-center"><i class="fas fa-chess text-success fa-3x  mb-3"></i> <br> Smart Strategy</h5>
+            <p class="card-text mb-0 text-center">Data-driven plans to boost growth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2) MARKETING EFFECT PORTION  -->
+<section class="py-5" id="marketing">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <!-- Text -->
+      <div class="col-md-6 ">
+        <h1 class="mb-4 display-6 fw-bold me-5">Make Your Marketing More Effective</h1>
+        <p class="lead">Discover simple strategies to reach more customers and grow revenue.</p>
+        <div class="d-flex gap-2">
+          <a href="#stats" class="btn btn-primary">Read More</a>
+          <a href="#stats" class="btn btn-outline-secondary">Learn More</a>
+        </div>
+      </div>
+      <!-- Round Image -->
+      <div class="col-md-6 text-center">
+        <img src="f916886a-7ba8-4f5b-8be9-80a27a90b051.jpeg" class="img-fluid rounded-circle shadow w-50 ms-5" alt="Marketing">
+      </div>
+
+      </div>
+      <br><br><br><br><br><br>
+<div class="container" style="width: 100%;">
+  <div class="row">
+    <div class="col-md-12">
+  
+  
+  
+      <div class="card shadow-sm">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <h5 class="card-title mb-2  display-6 fw-bold"> Convert more customers <br> and grow more revenue <br> now. </h5>
+            <div>
+              <button class="btn p-4 pe-5 ps-5 text-white fw-bold fs-5  btn1 " >Get Started</button>
+            </div>
+        
+        </div>
+        </div>
+</div>
+</div>
+</div>
+
+    
+  </div>
+</section>
+
+<!-- 3) END: FOUR COLORED CARDS (stats) -->
+<section class="py-5 bg-light" id="stats">
+  <div class="container">
+    <div class="row text-center g-4">
+      <div class="col-6 col-md-6">
+        <div class="p-5 rounded text-white bg-primary shadow">
+          <div class="fs-3  p-5 display-6 fw-bold">560k</div>
+          <small class="display-6  pb-5 mb-3 fw-bold">Global Audience</small>
+        </div>
+      </div>
+      <div class="col-6 col-md-6">
+        <div class="p-5 rounded bg-warning shadow">
+          <div class="fs-3 p-5 display-6 fw-bold">79%</div>
+          <small class="display-6 fw-bold">Under 34 Years</small>
+        </div>
+      </div>
+      <div class="col-6 col-md-6">
+        <div class="p-5 rounded text-white bg-success shadow">
+          <div class="fs-3 p-5 display-6  fw-bold">80%</div>
+          <small class=" display-6 fw-bold">Content Everyday</small>
+        </div>
+      </div>
+      <div class="col-6 col-md-6">
+        <div class="p-5 rounded bg-info shadow">
+          <div class="fs-3 p-5 display-6 fw-bold">1340</div>
+          <small class=" display-6 fw-bold">SEO Campaigns</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+ <footer class="bg-dark text-white">
+  <div class="container text-center ">
+    <div class="row">
+      <!-- Contact Us -->
+      <div class="col-md-4 mb-3 mt-3">
+        <h5>Contact Us</h5>
+        <p><i class="fas fa-map-marker-alt"></i> Location</p>
+        <p><i class="fas fa-phone"></i> Call: +01 1234567890</p>
+        <p><i class="fas fa-envelope"></i> demo@gmail.com</p>
+      </div>
+
+      <!-- Feane -->
+      <div class="col-md-4 mb-3">
+       
+        <p class="mt-3">
+           We believe in turning ideas into impactful stories. Our marketing strategies are designed to connect your brand with the right audience, spark engagement, and drive meaningful growth. Together, let’s build a future where your brand speaks louder than words.
+</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f fa-2x me-2"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x me-2" ></i></a>
+          <a href="#"><i class="fab fa-linkedin-in fa-2x me-2"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x me-2"></i></a>
+        </div>
+      </div>
+
+      <!-- Opening Hours -->
+      <div class="col-md-4 mb-3 ">
+        <h5 class="mt-5 ms-3">123 Marketing Avenue, Business City.</h5>
+        
+      </div>
+    </div>
+    <p class="mt-4 mb-0">&copy 2025 All Rights Reserved By Free Html Templates</p>
+    <p class="mb-0 pb2">Distributed By ThemeWagon</p>
+  </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
